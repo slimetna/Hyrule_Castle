@@ -1,0 +1,30 @@
+{
+  "name": "group-988170",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install && tsc hyrule_castle.ts",
+    "compile": "tsc hyrule_castle.ts",
+    "start": "node hyrule_castle.js",
+    "start-force": "node hyrule_castle.js --force",
+    "dev": "tsc hyrule_castle.ts && node hyrule_castle.js --force"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@rendu-git.etna-alternance.net:module-9162/activity-49969/group-988170.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^5.1.2",
+    "cli-table": "^0.3.11",
+    "figlet": "^1.5.2",
+    "ora": "^5.4.1",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.23"
+  }
+}
